@@ -1,0 +1,30 @@
+[submodule ".vim/bundle/vim-pathogen"]
+	path = .vim/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule ".vim/bundle/lightline.vim"]
+	path = .vim/bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule ".vim/bundle/vim-fugitive"]
+	path = .vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/nerdcommenter"]
+	path = .vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule ".vim/bundle/delimitMate"]
+	path = .vim/bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule ".vim/bundle/vim-cool"]
+	path = .vim/bundle/vim-cool
+	url = https://github.com/romainl/vim-cool.git
+[submodule ".vim/bundle/hardmode"]
+	path = .vim/bundle/hardmode
+	url = https://github.com/wikitopian/hardmode.git
+[submodule ".vim/bundle/mediummode"]
+	path = .vim/bundle/mediummode
+	url = https://github.com/kbarrette/mediummode.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-42header"]
+	path = .vim/bundle/vim-42header
+	url = https://github.com/pbondoer/vim-42header.git
