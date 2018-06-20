@@ -6,7 +6,7 @@
 "    By : sblauens                                                             "
 "                                                                              "
 "    Created : 2018/01/11                                                      "
-"    Updated : 2018/04/10                                                      "
+"    Updated : 2018/06/12                                                      "
 "                                                                              "
 " **************************************************************************** "
 
@@ -28,6 +28,7 @@
 	"set expandtab					" Real spaces for tab
 	set listchars=eol:ø,tab:¶·		" List : ¶·······ø
 	set list!
+	"set comments=s:/*,mb:**,ex:*/
 	"let c_space_errors = 1
 
 	"NETRW
@@ -78,7 +79,13 @@
 	"autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
 
 	"MEDIUMMODE
-	let g:mediummode_allowed_motions = 1
+	let g:mediummode_allowed_motions = 3
 	let g:mediummode_disallowed_message = "Don't repeat yourself.."
 	let g:mediummode_motion_keys =
 		\['h', 'j', 'k', 'l', '-', '+', '<Left>', '<Right>', '<Up>', '<Down>']
+
+	"NERDCOMMENTER
+	let NERDSpaceDelims = 1
+
+	"VIM-COOL
+	let g:CoolTotalMatches = 1
