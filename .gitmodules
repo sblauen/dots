@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/vim-42header"]
 	path = .vim/bundle/vim-42header
 	url = https://github.com/pbondoer/vim-42header.git
+[submodule ".vim/bundle/vim-bufferline"]
+	path = .vim/bundle/vim-bufferline
+	url = https://github.com/bling/vim-bufferline
