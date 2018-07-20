@@ -22,9 +22,6 @@
 [submodule ".vim/bundle/mediummode"]
 	path = .vim/bundle/mediummode
 	url = https://github.com/kbarrette/mediummode.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule ".vim/bundle/vim-42header"]
 	path = .vim/bundle/vim-42header
 	url = https://github.com/pbondoer/vim-42header.git
