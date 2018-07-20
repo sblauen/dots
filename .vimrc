@@ -6,7 +6,7 @@
 "    By : sblauens                                                             "
 "                                                                              "
 "    Created : 2018/01/11                                                      "
-"    Updated : 2018/06/12                                                      "
+"    Updated : 2018/07/20                                                      "
 "                                                                              "
 " **************************************************************************** "
 
@@ -45,11 +45,6 @@
 	"COLORS
 	set t_Co=256
 	syntax on
-	"set background=dark
-	"let g:solarized_visibility='low'
-	"let g:solarized_termcolors=256
-	"let g:solarized_termtrans=1
-	"colorscheme solarized
 	colorscheme smyck
 
 	"PLUGINS
