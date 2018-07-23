@@ -6,7 +6,7 @@
 "    By : sblauens                                                             "
 "                                                                              "
 "    Created : 2018/01/11                                                      "
-"    Updated : 2018/07/20                                                      "
+"    Updated : 2018/07/23                                                      "
 "                                                                              "
 " **************************************************************************** "
 
@@ -15,20 +15,24 @@
 	set hidden						" Allow hidden buffers
 	set number						" Show line #
 	set noshowmode					" Set off classic status line
+	set colorcolumn=81				" Highlight screen column
+	set hlsearch					" Highlight search pattern matches
 
 	"INDENTATION
 	set copyindent					" Copy structure of existing indent
-	set noautoindent				" Don't copy indent from current line
-	set cindent						" Enable C indenting
-	filetype indent off				" Don't load specific indent file
+	"set noautoindent				" Don't copy indent from current line
+	"set cindent					" Enable C indenting
+	"filetype indent off			" Don't load specific indent file
+	filetype indent on				" Load specific indent file
 	set nosmartindent				" Don't indent after {} or 'cinwords'
 	set tabstop=4					" # of space for a tab
 	set softtabstop=4				" # of space for a tab edit
 	set shiftwidth=4				" # of space for eac indent
 	"set expandtab					" Real spaces for tab
 	set listchars=eol:ø,tab:¶·		" List : ¶·······ø
+	set listchars+=trail:·			" Show · for trailing spaces
 	set list!
-	"let c_space_errors = 1
+	let c_space_errors = 1
 
 	"NETRW
 	let g:netrw_liststyle = 3		" Tree style listing
@@ -58,12 +62,12 @@
 	let g:lightline =
 		\{
 		\	'colorscheme': 'wombat',
-		\	'active': 
+		\	'active':
 		\	{
 		\		'left': [ [ 'mode', 'paste'],
 		\				  [ 'gitinfo', 'readonly', 'filename', 'modified' ] ]
 		\	},
-		\	'component_function': 
+		\	'component_function':
 		\	{
 		\		'gitinfo': 'fugitive#statusline'
 		\	},
