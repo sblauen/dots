@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --bg-scale '/home/sblauens/arch_setup/emerald-green-blur-gradation-wallpaper.jpg' 
