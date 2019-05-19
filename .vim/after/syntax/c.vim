@@ -271,6 +271,9 @@ syn keyword cBoolean true false TRUE FALSE
 " Standard file descriptors defines
 syn keyword	cConstant	STDIN_FILENO STDOUT_FILENO STDERR_FILENO
 
+" GNU C
+syn keyword	cStorageClass	__attribute__
+
 
 " Links
 hi def link cFunction Function
@@ -281,3 +284,4 @@ hi def link cBraces Delimiter
 hi def link cBoolean Boolean
 
 hi def link cConstant Constant
+hi def link cStorageClass StorageClass
