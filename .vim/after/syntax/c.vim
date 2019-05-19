@@ -268,6 +268,9 @@ syn match cBraces display "[{}]"
 " Booleans
 syn keyword cBoolean true false TRUE FALSE
 
+" Standard file descriptors defines
+syn keyword	cConstant	STDIN_FILENO STDOUT_FILENO STDERR_FILENO
+
 
 " Links
 hi def link cFunction Function
@@ -277,3 +280,4 @@ hi def link cDelimiter Delimiter
 hi def link cBraces Delimiter
 hi def link cBoolean Boolean
 
+hi def link cConstant Constant
