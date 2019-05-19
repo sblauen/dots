@@ -6,7 +6,7 @@
 "    By : sblauens                                                             "
 "                                                                              "
 "    Created : 2018/01/11                                                      "
-"    Updated : 2018/07/23                                                      "
+"    Updated : 2019/05/19                                                      "
 "                                                                              "
 " **************************************************************************** "
 
@@ -15,7 +15,7 @@
 	set hidden						" Allow hidden buffers
 	set number						" Show line #
 	set noshowmode					" Set off classic status line
-	set colorcolumn=81				" Highlight screen column
+	"set colorcolumn=81				" Highlight screen column
 	set hlsearch					" Highlight search pattern matches
 
 	"INDENTATION
@@ -31,7 +31,7 @@
 	"set expandtab					" Real spaces for tab
 	set listchars=eol:ø,tab:¶·		" List : ¶·······ø
 	set listchars+=trail:·			" Show · for trailing spaces
-	set list!
+	set nolist
 	let c_space_errors = 1
 
 	"NETRW
@@ -77,6 +77,7 @@
 	"autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
 
 	"MEDIUMMODE
+	let g:mediummode_enabled = 0
 	let g:mediummode_allowed_motions = 3
 	let g:mediummode_disallowed_message = "Don't repeat yourself.."
 	let g:mediummode_motion_keys =
