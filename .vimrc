@@ -6,7 +6,7 @@
 "    By : sblauens                                                             "
 "                                                                              "
 "    Created : 2018/01/11                                                      "
-"    Updated : 2019/05/19                                                      "
+"    Updated : 2019/07/28                                                      "
 "                                                                              "
 " **************************************************************************** "
 
@@ -49,7 +49,8 @@
 	"COLORS
 	set t_Co=256
 	syntax on
-	colorscheme smyck
+	set background=dark
+	colorscheme chalk
 
 	"PLUGINS
 	runtime bundle/vim-pathogen/autoload/pathogen.vim

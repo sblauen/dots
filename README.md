@@ -5,6 +5,10 @@
 * Shell: Bash
 * Editor: Vim
 
+#### Vim Scheme
+
+* [chalk][11]
+
 #### Vim Plugins
 
 * [vim-pathogen][1]
@@ -28,3 +32,4 @@
 [8]: https://github.com/pbondoer/vim-42header.git
 [9]: https://github.com/bling/vim-bufferline.git
 [10]: https://github.com/tpope/vim-surround.git
+[11]: https://github.com/sblauen/chalk.git

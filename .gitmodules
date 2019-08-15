@@ -31,3 +31,6 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround
+[submodule ".vim/colors/chalk"]
+	path = .vim/colors/chalk
+	url = https://github.com/sblauen/chalk.git
