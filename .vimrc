@@ -87,6 +87,3 @@
 
 	"NERDCOMMENTER
 	let NERDSpaceDelims = 1
-
-	"VIM-COOL
-	let g:CoolTotalMatches = 1
