@@ -17,6 +17,7 @@
 	set noshowmode					" Set off classic status line
 	"set colorcolumn=81				" Highlight screen column
 	set hlsearch					" Highlight search pattern matches
+	set wildmenu					" Enhance command-line completion
 
 	"INDENTATION
 	set copyindent					" Copy structure of existing indent
