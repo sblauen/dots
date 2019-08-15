@@ -3,10 +3,10 @@
 #                                                                              #
 #    .bash_aliases                                                             #
 #                                                                              #
-#    By : sblauens                                                             #
+#    By : sblauen                                                              #
 #                                                                              #
 #    Created : 2018/01/11                                                      #
-#    Updated : 2018/06/20                                                      #
+#    Updated : 2019/08/15                                                      #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,3 +42,6 @@ alias glg-stat='git log --oneline --decorate --graph --stat'
 alias glg-astat='git log --oneline --decorate --all --graph --stat'
 alias glg-short='git log --oneline --decorate --all --graph --simplify-by-decoration'
 alias gdf='git diff'
+
+# Utils
+alias ls='ls --color=always'
