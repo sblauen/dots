@@ -23,7 +23,6 @@
 	set copyindent					" Copy structure of existing indent
 	"set noautoindent				" Don't copy indent from current line
 	"set cindent					" Enable C indenting
-	"filetype indent off			" Don't load specific indent file
 	filetype indent on				" Load specific indent file
 	set nosmartindent				" Don't indent after {} or 'cinwords'
 	set tabstop=4					" # of space for a tab
