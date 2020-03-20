@@ -21,6 +21,9 @@ PROMPT_COMMAND='__git_ps1 "\[\033[00m\]\u\[\033[34m\]@\[\033[00m\]\h \[\033[33m\
 MAIL=;
 export MAIL;
 
+#Options
+set -o noclobber
+
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
