@@ -1,0 +1,50 @@
+!				unicode rxvt
+!
+!									Display
+URxvt*geometry:						100x60
+URxvt*font:							xft:xos4 Terminus:pixelsize=16:antialiasing=true:hinting=true
+URxvt*boldFont:						xft:xos4 Terminus:style=Bold:pixelsize=16:antialiasing=true:hinting=true
+URxvt*depth:						32
+URxvt*borderless:					1
+URxvt*scrollBar:					false
+URxvt*saveLines:					2000
+! URxvt.transparent:				true
+! URxvt*.shading:					30
+
+!									Color Scheme
+URxvt*background:					rgba:0000/0000/0000/c800
+URxvt*foreground:					#bcbcbc
+URxvt*colorUL:						#86a2b0
+!	Black
+URxvt*color0:						#2e3436
+URxvt*color8:						#555753
+!	Red
+URxvt*color1:						#880000
+URxvt*color9:						#ff4040
+!	Green
+URxvt*color2:						#008800
+URxvt*color10:						#40ff40
+!	Yellow
+URxvt*color3:						#bb9900
+URxvt*color11:						#fff000
+!	Blue
+URxvt*color4:						#004080
+URxvt*color12:						#00aaee
+!	Magenta
+URxvt*color5:						#660066
+URxvt*color13:						#ff00ff
+!	Cyan
+URxvt*color6:						#008080
+URxvt*color14:						#00ffff
+!	White
+URxvt*color7:						#c0c0c0
+URxvt*color15:						#ffffff
+
+!									Tabs
+URxvt*perl-ext:						tabbed
+URxvt*tabbed.new-button:			false
+URxvt*tabbed.tabbar-fg:				4
+URxvt*tabbed.tabbar-bg:				0
+URxvt*tabbed.tab-fg:				7
+URxvt*tabbed.tab-bg:				0
+URxvt*tabbed.disable-shift-down:	true
