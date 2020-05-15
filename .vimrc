@@ -6,10 +6,11 @@
 set nocompatible
 set hidden				" Allow hidden buffers
 set number				" Show line #
-set noshowmode				" Set off classic status line
 "set colorcolumn=81			" Highlight screen column
 set hlsearch				" Highlight search pattern matches
 set wildmenu				" Enhance command-line completion
+set laststatus=2			" Always show statusline
+filetype plugin on			" Enable plugins loading
 
 "INDENTATION
 " ------------------------------------------------------------------------------
@@ -41,44 +42,3 @@ set t_Co=256
 syntax on
 set background=dark
 colorscheme chalk
-
-"PLUGINS
-" ------------------------------------------------------------------------------
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-filetype plugin on
-execute pathogen#infect()
-
-"LIGHTLINE
-" ------------------------------------------------------------------------------
-set laststatus=2			" Show lightline
-"lightline display configuration :
-let g:lightline =
-	\{
-	\	'colorscheme': 'wombat',
-	\	'active':
-	\	{
-	\		'left': [ [ 'mode', 'paste'],
-	\				  [ 'gitinfo', 'readonly',
-	\					'filename', 'modified' ] ]
-	\	},
-	\	'component_function':
-	\	{
-	\		'gitinfo': 'fugitive#statusline'
-	\	},
-	\}
-
-"HARDMODE
-" ------------------------------------------------------------------------------
-"autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
-
-"MEDIUMMODE
-" ------------------------------------------------------------------------------
-let g:mediummode_enabled = 0
-let g:mediummode_allowed_motions = 3
-let g:mediummode_disallowed_message = "Don't repeat yourself.."
-let g:mediummode_motion_keys =
-	\['h', 'j', 'k', 'l', '-', '+', '<Left>', '<Right>', '<Up>', '<Down>']
-
-"NERDCOMMENTER
-" ------------------------------------------------------------------------------
-let NERDSpaceDelims = 1
