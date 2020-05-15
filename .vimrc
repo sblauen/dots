@@ -21,14 +21,7 @@
 
 	"INDENTATION
 	set copyindent					" Copy structure of existing indent
-	"set noautoindent				" Don't copy indent from current line
-	"set cindent					" Enable C indenting
 	filetype indent on				" Load specific indent file
-	set nosmartindent				" Don't indent after {} or 'cinwords'
-	set tabstop=4					" # of space for a tab
-	set softtabstop=4				" # of space for a tab edit
-	set shiftwidth=4				" # of space for eac indent
-	"set expandtab					" Real spaces for tab
 	set listchars=eol:ø,tab:¶·		" List : ¶·······ø
 	set listchars+=trail:·			" Show · for trailing spaces
 	set nolist
