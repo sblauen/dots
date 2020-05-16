@@ -1,12 +1,12 @@
-[submodule ".vim/bundle/vim-fugitive"]
-	path = .vim/bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".vim/bundle/vim-bufferline"]
-	path = .vim/bundle/vim-bufferline
-	url = https://github.com/bling/vim-bufferline
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
 [submodule ".vim/colors/chalk"]
 	path = .vim/colors/chalk
 	url = https://github.com/sblauen/chalk.git
+[submodule ".vim/pack/gpb/start/vim-surround"]
+	path = .vim/pack/gpb/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule ".vim/pack/gpb/start/vim-bufferline"]
+	path = .vim/pack/gpb/start/vim-bufferline
+	url = https://github.com/bling/vim-bufferline
+[submodule ".vim/pack/gpb/start/vim-fugitive"]
+	path = .vim/pack/gpb/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
