@@ -25,3 +25,8 @@ git-cfg-user ()
 	git config --local user.name "$U"
 	git config --local user.email "$M"
 }
+
+git-add-new ()
+{
+	git add -N "$@" && git add -p "$@"
+}
