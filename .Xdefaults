@@ -1,50 +1,75 @@
-!				unicode rxvt
-!
-!									Display
-URxvt*geometry:						100x60
-URxvt*font:							xft:xos4 Terminus:pixelsize=16:antialiasing=true:hinting=true
-URxvt*boldFont:						xft:xos4 Terminus:style=Bold:pixelsize=16:antialiasing=true:hinting=true
-URxvt*depth:						32
-URxvt*borderless:					1
-URxvt*scrollBar:					false
-URxvt*saveLines:					2000
-! URxvt.transparent:				true
-! URxvt*.shading:					30
+!		rxvt-unicode  settings
 
-!									Color Scheme
-URxvt*background:					rgba:0000/0000/0000/c800
-URxvt*foreground:					#bcbcbc
-URxvt*colorUL:						#86a2b0
-!	Black
-URxvt*color0:						#2e3436
-URxvt*color8:						#555753
-!	Red
-URxvt*color1:						#880000
-URxvt*color9:						#ff4040
-!	Green
-URxvt*color2:						#008800
-URxvt*color10:						#40ff40
-!	Yellow
-URxvt*color3:						#bb9900
-URxvt*color11:						#fff000
-!	Blue
-URxvt*color4:						#004080
-URxvt*color12:						#00aaee
-!	Magenta
-URxvt*color5:						#660066
-URxvt*color13:						#ff00ff
-!	Cyan
-URxvt*color6:						#008080
-URxvt*color14:						#00ffff
-!	White
-URxvt*color7:						#c0c0c0
-URxvt*color15:						#ffffff
 
-!									Tabs
-URxvt*perl-ext:						tabbed
-URxvt*tabbed.new-button:			false
-URxvt*tabbed.tabbar-fg:				4
-URxvt*tabbed.tabbar-bg:				0
-URxvt*tabbed.tab-fg:				7
-URxvt*tabbed.tab-bg:				0
-URxvt*tabbed.disable-shift-down:	true
+#define U				URxvt
+#define T				tabbed
+
+!			Display
+U*geometry:				100x60
+U*borderless:				1
+U*scrollBar:				false
+U*saveLines:				2000
+
+!			Font
+#define FONT				xos4 Terminus
+#define SIZE				pixelsize=16
+#define ANTIALS				antialiasing=true
+#define HINTING				hinting=true
+#define BOLD				style=Bold
+URxvt*font:				xft:FONT:SIZE:ATIALS:HINTING
+URxvt*boldFont:				xft:FONT:BOLD:SIZE:ATIALS:HINTING
+
+!			Colors
+! 0 Black	4 Blue		8  Dark Grey		12 Light Blue
+! 1 Red		5 Magenta	9  Light Red		13 Light Magenta
+! 2 Green	6 Cyan		10 Light Green		14 Light Cyan
+! 3 Yellow	7 Light Grey	11 Light Yellow		15 White
+#define BLACK				#000000
+#define RED				#dd0000
+#define GREEN				#00aa00
+#define YELLOW				#f0c000
+#define BLUE				#0040c0
+#define MAGENTA				#c000c0
+#define CYAN				#00c0c0
+#define LIGHT_GREY			#c0c0c0
+#define DARK_GREY			#606060
+#define LIGHT_RED			#ff4000
+#define LIGHT_GREEN			#00ff40
+#define LIGHT_YELLOW			#ffee00
+#define LIGHT_BLUE			#0060ff
+#define LIGHT_MAGENTA			#ff00ff
+#define LIGHT_CYAN			#00ffff
+#define WHITE				#ffffff
+U*depth:				32
+U*background:				rgba:0000/0000/0000/edcb
+U*foreground:				#bcbcbc
+U*colorUL:				#86a2b0
+U*color0:				BLACK
+U*color1:				RED
+U*color2:				GREEN
+U*color3:				YELLOW
+U*color4:				BLUE
+U*color5:				MAGENTA
+U*color6:				CYAN
+U*color7:				LIGHT_GREY
+U*color8:				DARK_GREY
+U*color9:				LIGHT_RED
+U*color10:				LIGHT_GREEN
+U*color11:				LIGHT_YELLOW
+U*color12:				LIGHT_BLUE
+U*color13:				LIGHT_MAGENTA
+U*color14:				LIGHT_CYAN
+U*color15:				WHITE
+
+!			Tabs
+U*perl-ext:				tabbed
+U*T.new-button:				false
+U*T.tabbar-fg:				4
+U*T.tabbar-bg:				0
+U*T.tab-fg:				7
+U*T.tab-bg:				0
+U*T.disable-shift-down:			true
+
+!			Unicode
+URxvt*iso14755:				false
+URxvt*iso14755_52:			false
