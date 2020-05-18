@@ -1,14 +1,5 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                                              #
-#    .bash_aliases                                                             #
-#                                                                              #
-#    By : sblauen                                                              #
-#                                                                              #
-#    Created : 2018/01/11                                                      #
-#    Updated : 2019/08/15                                                      #
-#                                                                              #
-# **************************************************************************** #
+#    .bash_aliases
+# ------------------------------------------------------------------------------
 
 # C
 alias cw='clang -Wall -Wextra -Werror'
@@ -17,8 +8,8 @@ alias gw='gcc -Wall -Wextra -Werror'
 # Git
 alias gcl='git clone'
 alias gft='git fetch'
-alias gpm='git pull'
-alias gpr='git pull --rebase'
+alias gpl='git pull'
+alias gps='git push'
 alias gbr='git branch'
 alias gbf='git branch -f'
 alias gck='git checkout'
@@ -31,17 +22,15 @@ alias gst='git status'
 alias gad='git add'
 alias grm='git rm'
 alias gcm='git commit'
-alias gpo='git push origin'
-alias gpu='git push upstream'
+alias gdf='git diff'
 alias glg='git log'
 alias glp='git log -p -1'
-alias gl1='git log --oneline --decorate'
-alias gl1a='git log --oneline --decorate --all'
-alias glg-graph='git log --oneline --decorate --all --graph'
-alias glg-stat='git log --oneline --decorate --graph --stat'
-alias glg-astat='git log --oneline --decorate --all --graph --stat'
-alias glg-short='git log --oneline --decorate --all --graph --simplify-by-decoration'
-alias gdf='git diff'
+alias glo='git log --oneline --decorate'
+alias gloa='git log --oneline --decorate --all'
+alias glg='git log --oneline --decorate --all --graph'
+alias gls='git log --oneline --decorate --graph --stat'
+alias glsa='git log --oneline --decorate --all --graph --stat'
+alias glr='git log --oneline --decorate --all --graph --simplify-by-decoration'
 
 # Utils
 alias ls='ls --color=always'
