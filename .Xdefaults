@@ -36,7 +36,7 @@ URxvt*boldFont:				xft:FONT:BOLD:SIZE:ATIALS:HINTING
 #define LIGHT_RED			#ff4000
 #define LIGHT_GREEN			#00ff40
 #define LIGHT_YELLOW			#ffee00
-#define LIGHT_BLUE			#0060ff
+#define LIGHT_BLUE			#00aaff
 #define LIGHT_MAGENTA			#ff00ff
 #define LIGHT_CYAN			#00ffff
 #define WHITE				#ffffff
